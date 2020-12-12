@@ -4,6 +4,7 @@ html, body {
   background-color: #dbdbdb;
 }
 
+
 .box {
   min-height: 50px;
   padding: 5px;
@@ -21,9 +22,9 @@ html, body {
   margin: 0.5rem;
 }
 
-.pull-left {
+#summaryImage {
   float: left;
-  width: 400px;
+  width: 100%;
 }
 
 .clearfix::after {
@@ -34,7 +35,6 @@ html, body {
 
 #viz {
   text-align: center;
-  
 }
 
 #viz img {
@@ -43,33 +43,66 @@ html, body {
   margin-right: auto;
 }
 
-#viz h2 {
-  margin-left: 0px;
+.viz_row {
+  
+  background-color: #fff;
+}
+
+.viz-logo {
+  max-width: 200px;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.viz_header {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.viz_content {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.viz_row img {
+  width: 100%;
 }
 
 div[class^="col"]{padding-left:5px; padding-right:5px;}
 
 
-@media (min-width: 768px)
+@media (max-width: 768px)
 {
-  .pull-left {
-    width: 100%;
+  .box h2 {
+    text-align: center;
   }
 
-  .container {
-    max-width: 900px;
+  @media (min-width: 768px)
+  {
+    .container {
+      max-width: 900px;
+    }
   }
+
 }
 
 @media (min-width: 1200px) {
-  .container {
-      max-width: 1400px;
+  
+  #summaryImage {
+    width: 400px;
   }
+
+  .navbar {
+    margin-bottom: 50px;
+  }
+
 }
 
 @media (min-width: 1600px) {
-  .container {
-    max-width: 1600px;
-  }
+
 }
 
