@@ -44,8 +44,11 @@ html, body {
 }
 
 .viz_row {
-  
   background-color: #fff;
+}
+
+.plot {
+  width: 100%
 }
 
 .viz-logo {
@@ -59,8 +62,8 @@ html, body {
 }
 
 .viz_header {
-  margin-top: 15px;
-  margin-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .viz_content {
@@ -68,8 +71,9 @@ html, body {
   margin-right: 5px;
 }
 
-.viz_row img {
-  width: 100%;
+.header_logo {
+  margin-bottom: 10px;
+  max-width: 200px;
 }
 
 div[class^="col"]{padding-left:5px; padding-right:5px;}
