@@ -8,7 +8,6 @@ html, body {
 .box {
   min-height: 50px;
   padding: 5px;
-  margin: 5px;
   background-color: #fff;
 }
 
@@ -87,9 +86,7 @@ div[class^="col"]{padding-left:5px; padding-right:5px;}
 
   @media (min-width: 768px)
   {
-    .container {
-      max-width: 900px;
-    }
+
   }
 
 }

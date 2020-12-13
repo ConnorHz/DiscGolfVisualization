@@ -26,19 +26,22 @@
           <a class="nav-link dropdown-toggle" id="brandDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brands</a>
           <div class="dropdown-menu" aria-labelledby="brandDropdown">
             <a class="dropdown-item" href="discraft.html">Discraft</a>
-            <a class="dropdown-item" href="#">Dynamic Discs</a>
-            <a class="dropdown-item" href="#">Innova</a>
-            <a class="dropdown-item" href="#">Latitude 64</a>
+            <a class="dropdown-item" href="dynamic_discs.html">Dynamic Discs</a>
+            <a class="dropdown-item" href="innova.html">Innova</a>
+            <a class="dropdown-item" href="latitude_64.html">Latitude 64</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Data</a>
+          <a class="nav-link" href="data.html">Data</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparisons.html">Comparisons</a>
+      </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container" style="max-width: unset;">
+  <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="box clearfix">
@@ -46,8 +49,9 @@
           <hr>
 
           <img id="summaryImage" src="public/images/innova_totalReviews_speed.svg">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros felis, malesuada in ligula eu, commodo vestibulum est. Vivamus lectus purus, ultrices vel est at, cursus lacinia turpis. Ut tellus dolor, posuere id cursus et, blandit sed felis. Proin faucibus diam semper aliquet imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut et est sit amet tortor vehicula posuere vel ac augue. Sed interdum id elit a consequat. In id quam tellus. In hac habitasse platea dictumst. Proin rhoncus elit id nisi accumsan elementum. Nulla fermentum eros nisl, iaculis porta nisl maximus in. Donec varius massa lectus, vitae vehicula magna dictum at. Pellentesque nulla leo, varius nec finibus eget, elementum in est. Aliquam auctor eu est vel blandit. Curabitur interdum, orci id lobortis imperdiet, enim metus mattis libero, ac ultricies purus turpis ullamcorper ante. Nam consectetur, nisi id mollis lobortis, tortor felis porta sapien, sed fringilla est metus in dui. Donec et enim vel est imperdiet faucibus in rutrum sapien.</p>
+          <p>The purpose of this project was to investigate the correlation between the flight rating of a disc golf disc and the total number of user ratings for the same disc. To accomplish this analysis, I pulled data from InfiniteDiscs.com to assemble a dataset of over 800 discs. For the sake of simplicity, I limited the scope of this project to only include discs from 4 major brands; Discraft, Dynamic Discs, Innova, and Latitude 64.</p>
           
+          <p>After assembling the dataset, I used Matplotlib to plot various aspects of user ratings vs disc attributes. Factors I looked into included: speed, glide, turn and fade ratings. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
         </div>
       </div>
     </div>
@@ -79,18 +83,21 @@
             </div>
             <div class="col-lg-3">
               <div class="viz-logo">
-                <img src="public/images/logos/innova-flat-logo.png">
+                <a href="innova.html">
+                  <img src="public/images/logos/innova-flat-logo.png">
+                </a>
               </div>
-              <a href="">
-                
+              <a href="innova.html">
                 <img src="public/images/innova_totalReviews_speed.svg">
               </a>
             </div>
             <div class="col-lg-3">
               <div class="viz-logo">
-                <img src="public/images/logos/latitude64.jpg">
+                <a href="latitude_64.html">
+                  <img src="public/images/logos/latitude64.jpg">
+                </a>
               </div>
-              <a href="">
+              <a href="latitude_64.html">
                 <img src="public/images/latitude 64_totalReviews_speed.svg">
               </a>
             </div>
